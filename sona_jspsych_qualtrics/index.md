@@ -2,11 +2,11 @@
 
 # How to redirect participants from SONA to jsPsych, and then to Qualtrics, and finally to SONA again?
 
-<div style="text-align: left; font-size: 130%">
-Omid Ghasemi
 
-<span style="font-size: 80%">Department of Cognitive Science, Macquarie University<span>
-</div>
+**Omid Ghasemi**
+
+*Department of Cognitive Science, Macquarie University*
+
 
 Suppose you host an experiment which is created with jsPsych on Pavlovia. You also have another experiment on Qualtrics. In this experiment, participants will be redirected from SONA to jsPsych to do the first part of the experiment. Then, they well be redirected to Qualtrics to do the second part of the experiment. Finally, they will be returned to SONA and will be granted their credit. You want to capture participants SONA ID so that you can make the credit assignment automatic, and more importantly, combine data in jsPsych and Qualtrics using a unique code. You can simply follow these simple steps:
 
